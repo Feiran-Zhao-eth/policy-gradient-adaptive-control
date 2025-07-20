@@ -1,4 +1,4 @@
-function [K] = sdp(n,T, Q,R,lambda,X0,U0,X1)
+function [K] = sdp(m, n,T, Q,R,lambda,X0,U0,X1)
 % It solves the direct certainty-equivalence LQR problem with a regularizer
 % see the paper: https://arxiv.org/abs/2503.02985
 % Note that without regularization, direct LQR with covariance
